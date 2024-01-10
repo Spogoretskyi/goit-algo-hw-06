@@ -3,7 +3,7 @@
 Для аналізу я обрав центральну частину Київського метро:
 
 
-# Отримано наступны результати:
+# Отримано наступні результати:
 
 # Завдання 1:
 Кількість вершин: 25<br>
@@ -37,7 +37,7 @@ Lukiyanivska: 2<br>
 Dorogozhychy: 1<br>
 
 # Завдання 2:
-Я вирышив порівняти шлях "Dorogozhychy" ---> "Vokzalna"
+Я вирышив порівняти шлях "Dorogozhychy" ---> "Vokzalna"<br>
 Отриманий шлях використовуючи алгоритм 'dfs':<br>
 [['Dorogozhychy', 'Lukiyanivska', 'Zoloti Vorota', 'Palats Sportu', 'Lva Tolstogo', 'Maidan Nezalezhnosti', 'Khreshchatyk', 'Teatralna', 'Universytet', 'Vokzalna'], ['Dorogozhychy', 'Lukiyanivska', 'Zoloti Vorota', 'Teatralna', 'Universytet', 'Vokzalna']]<br>
 
