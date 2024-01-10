@@ -85,3 +85,10 @@ end_station = "Vokzalna"
 
 dfs_tree = dfs_paths(metro_graph, start_station, end_station)
 bfs_tree = bfs_paths(metro_graph, start_station, end_station)
+
+# Для графічного візуалізування використаю вбудовані функції для отримання дерев DFS та BFS
+dfs_tree = nx.dfs_tree(metro_graph, source='Dorogozhychy')
+bfs_tree = nx.bfs_tree(metro_graph, source='Dorogozhychy')
+
+visualize_graph(dfs_tree, "DFS Tree")
+visualize_graph(bfs_tree, "BFS Tree")
