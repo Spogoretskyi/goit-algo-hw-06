@@ -55,8 +55,6 @@ metro_graph.add_edges_from(
     ]
 )
 
-start_station = "Dorogozhychy"
-
 for start_station in metro_graph.nodes:
     shortest_paths = dijkstra(metro_graph, start_station)
-    print(f"Найкоротші шляхи від {start_station}: {shortest_paths}")
+    print(f"Найкоротші шляхи від `{start_station}`: {shortest_paths}<br>")
